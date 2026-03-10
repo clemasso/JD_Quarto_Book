@@ -18,7 +18,7 @@ As explained in the corresponding Readme files on [Github](https://github.com/rj
 
 ### Configuration needed
 
--   To run packages based on version 3.x: Java 17 or higher: how to get a portable Java and link it with R on your computer is explained [here](#Rconfig)
+-   To run packages based on version 3.x: Java 21 or higher: how to get a portable Java and link it with R on your computer is explained [here](#Rconfig)
 
 -   To run packages based on version 2.x: Java 8 or higher
 
