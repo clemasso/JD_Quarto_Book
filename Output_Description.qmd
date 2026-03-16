@@ -6,9 +6,11 @@
 
 <!-- add link in index/user support : sa chap + another chap  -->
 
+<!-- ADD output links to readme pages / R doc  -->
+
 -   what kind of output is produced ?
 
--   How to identify an output object given an algortithm ? what is uniquely defined
+-   How to identify an output object given an algorithm ? what is uniquely defined
 
 -   What are the output format ?
 
@@ -26,7 +28,12 @@
 
 -   R packages output specificities (str(m))
 
-## Scope: SA algortihms vs the rest
+in R difference between user-defined and default 
+default means : directly retrievable from sa_model 
+
+## Scope
+
+SA algorithms vs the rest
 
 here SA related output, set up specific chapter add HF to HF of SA - rjd3...: str(m) - GUI display
 
@@ -36,7 +43,7 @@ and add non sa related output list of algos - terror - bench and TD -
 
 how does it occur - plug ins R packages
 
-### Use Cases
+## Use Cases
 
 use case 1
 
@@ -44,7 +51,7 @@ use case 2
 
 and search advices
 
-## SA related algorithms
+## SA related algorithms (HF included ?)
 
 ## What is displayed or generated ?
 
@@ -60,9 +67,9 @@ and search advices
 
 what is uniquely defined
 
--   concept\*algo
+-   CODE= concept\*algo
 
-ex preadjut = reg-arima or ttramo
+ex preadjut = reg-arima or tramo
 
 Example
 
@@ -138,7 +145,31 @@ X13-Arima
 
 Tramo seats
 
-#### R user defined output
+#### R Dicos /R user defined output
+
+HERE 
+
+rjd3x13, rjd3tramoseats 
+
+link to doc in rjdverse..
+
+##### Filtering useless output 
+
+TS only in X13 and vice versa ?
+
+##### Descripitions in JAVA
+
+##### Table Description  
+type
+name M7
+JD+ output name decomp.M7
+..
+..
+
+
+
+
+
 
 ## Differences between V2 and V3
 
@@ -150,11 +181,26 @@ Below different lists We flag differences between v2 and v3
 
 <!-- use: https://www.tablesgenerator.com/markdown_tables -->
 
-In the remainder list of nammes Link (auto) with R dictionnaries ?
+In the remainder list of nammes Link (auto) with R dictionaries ?
 
 ## Series
 
 stored by algo, unique concept
+
+### Table structure !
+
+as pb of width tables broken in 2 parts 
+
+where are auxiliary excel files 
+auxiliary R code 
+all in "Documents/JD_Quarto_Book_AUX"
+
+#### part 1: GUI + cruncher 
+
+name
+description 
+
+#### part 2: R with code
 
 ### Final SA series
 
@@ -165,6 +211,10 @@ identical for reg-arima and ts
 ### X-11 decomposition (start 1)
 
 <!-- (moved from method chapter or left in both ?) -->
+
+
+
+part 2
 
 | Code | Description | GUI display (Results Panel) | GUI output - input | cruncher V3 output |
 |--------------|--------------|:----------------:|:------------:|:------------:|
@@ -220,6 +270,16 @@ ONE TEST example : Friedman TEST, link to M chap what do we describe here
 
 last
 
-## Cruncher Output
+## Cruncher Output (special)
+
+to cruncher chap ?
+
+## R packages (str(model)) output
+
+see how it works 
+in part R code will be in tables ?
 
 ## Non SA related algorithms
+
+## R packages (str(model)) output
+

@@ -34,7 +34,7 @@ The highest version using Java 8 is v2.2.4.
 
 If you need user support, please raise an issue in this [repository](https://github.com/stace-tsa-shop/UserSupport)
 
-For specific questions related to **production of seasonally adjusted series** you can look up [these pages](https://saproductionwithjdemetraandr.netlify.app/)
+For specific questions related to **production of seasonally adjusted series** you can look up [these pages](https://sa-production-with-jdemetra-and-r.netlify.app/)
 
 To keep up with all JDemetra+ related news head over to the [**JDemetra+ Universe Blog**](https://jdemetra-universe-blog.netlify.app/)
 
