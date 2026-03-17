@@ -121,7 +121,7 @@ book:
         - M-revision-analysis.qmd ##(#m-revs)
     -  Output_Description.qmd ##(#output-chap)
     - part: P-Use-Cases.qmd ##(#part-U)
-        chapters:
+      chapters:
         - U-forecasting-nowcasting.qmd ##(#u-now)
         - U-outlier-detection.qmd ##(#u-out)
         - U-refreshing-data.qmd ##(#u-refresh)

@@ -760,7 +760,7 @@
     "href": "T-plug-ins.html#t-plug-ins-ut",
     "title": "Plug-ins (GUI extensions)",
     "section": "Utility plug-ins",
-    "text": "Utility plug-ins\n\nFetching time series from web services (SDMX)\nThe SDMX plug-in aloows to import time series from SDMX website to JDemetra+ by querying web services or parsing files.\nDocumentation (made for version 2. but quasi-identical in version 3.x) is available on this wiki page.\nIn version 3.x, the plug-in file (“jdplus-sdmx-desktop-plugin-x.y.z.nbm”) is available here for download.\nIn version 2.x, the plug-in file (“jdplus-sdmx-desktop-plugin-x.y.z.nbm”) is available here for download.\n\n\nManual fine tuning in Seasonal Adjustment\nThe following plug-in was developed by the Deutsche Bundesbank (BBK). For the moment it is only available for version 2.x.\n\nCompRes: The plug-in CompRes supports the controlled current adjustment approach. It pro the storage of the current components and offers graphical tools to compare forecasted and re-estimated figures. Furthermore, a pre-defined summary of the output containing the most important quality measures can be exported to HTML files.\n\n\n\nChain linked Indices\nThe following plug-ins were developed by the Deutsche Bundesbank (BBK). For the moment they are only available for version 2.x.\n\nKIX: The plug-in KIX (German for chain-linked index) has been designed to facilitate the handling of this index type. It offers addition and subtraction of two or more chain-linked time series as well as the computation of contributions of growth.\nKIX2.0: KIX 2.0 offers addition and subtraction of two or more chain-linked time series as well as the computation of contributions of growth following the concept of annual overlap. Contributions to growth are calculated with the partial contribution to growth approach.\nKIXE: KIX_E offers addition and subtraction of two or more chain-linked time series as well as the computation of contributions of growth following the concept of one-period overlap. Contributions to growth are calculated with the aid of the Ribe (1999) contribution to growth approach.\nKIX: The program KIX-CC offers for continuously chain-linked indices the aggregation or disaggregation of two or more indices, or the calculation of contributions to growth.\n\n\n\nCalendar regressors wrangling\nThe following plug-in was developed by the Deutsche Bundesbank (BBK). For the moment it is only available for version 2.x.\n\nTransReg: The plug-in TransReg allows the user to carry out grouping and centring of user-defined regression variables in JD+.\n\n\n\nSpecification conversion\nThe following plug-in was developed by the Deutsche Bundesbank (BBK). For the moment it is only available for version 2.x.\n\nXlsx2Ws: The plug-in Xlsx2Ws allows the converting of specific workspace information to a xlsx file and vice versa.\n\n\n\nQuality report\nThe Quality Report (QR) Eurostat plug-in is available on this GtHub page: download the latest version of the *.nbm file and proceed with installation as indicated in this chapter\nIt is commonly used by Labor Cost Index (LCI) producers across eurosystem countries.\n\n\nData base access\nThe following plug-ins was developed by the National bank of Belgium (NBB). It is only available for version 2.x.\n\nAccessThis JDemetra+ extension is a pure java library for reading time series from MS Access databases. It currently supports versions 2000-2016 read/write and 97 read-only.Being a pure Java library, you don’t need MS Access installed in order to read Access files."
+    "text": "Utility plug-ins\n\nFetching time series from web services (SDMX)\nThe SDMX plug-in aloows to import time series from SDMX website to JDemetra+ by querying web services or parsing files.\nDocumentation (made for version 2. but quasi-identical in version 3.x) is available on this wiki page.\nIn version 3.x, the plug-in file (“jdplus-sdmx-desktop-plugin-x.y.z.nbm”) is available here for download.\nIn version 2.x, the plug-in file (“jdplus-sdmx-desktop-plugin-x.y.z.nbm”) is available here for download.\n\n\nManual fine tuning in Seasonal Adjustment\nThe following plug-in was developed by the Deutsche Bundesbank (BBK). For the moment it is only available for version 2.x.\n\nCompRes: The plug-in CompRes supports the controlled current adjustment approach. It pro the storage of the current components and offers graphical tools to compare forecasted and re-estimated figures. Furthermore, a pre-defined summary of the output containing the most important quality measures can be exported to HTML files.\n\n\n\nChain linked Indices\nThe following plug-ins were developed by the Deutsche Bundesbank (BBK). For the moment they are only available for version 2.x.\n\nKIX: The plug-in KIX (German for chain-linked index) has been designed to facilitate the handling of this index type. It offers addition and subtraction of two or more chain-linked time series as well as the computation of contributions of growth.\nKIX2.0: KIX 2.0 offers addition and subtraction of two or more chain-linked time series as well as the computation of contributions of growth following the concept of annual overlap. Contributions to growth are calculated with the partial contribution to growth approach.\nKIXE: KIX_E offers addition and subtraction of two or more chain-linked time series as well as the computation of contributions of growth following the concept of one-period overlap. Contributions to growth are calculated with the aid of the Ribe (1999) contribution to growth approach.\nKIX: The program KIX-CC offers for continuously chain-linked indices the aggregation or disaggregation of two or more indices, or the calculation of contributions to growth.\n\n\n\nCalendar regressors wrangling\nThe following plug-in was developed by the Deutsche Bundesbank (BBK). For the moment it is only available for version 2.x.\n\nTransReg: The plug-in TransReg allows the user to carry out grouping and centring of user-defined regression variables in JD+.\n\n\n\nSpecification conversion\nThe following plug-in was developed by the Deutsche Bundesbank (BBK). For the moment it is only available for version 2.x.\n\nXlsx2Ws: The plug-in Xlsx2Ws allows the converting of specific workspace information to a xlsx file and vice versa.\n\n\n\nJob Vacancy Survey (JVS) Quality report (version 2)\nThe Quality Report (QR) Eurostat plug-in is available on this GtHub page: download the latest version of the *.nbm file and proceed with installation as indicated in this chapter\nThe description of the quality report is in this same GitHub repository here\nIt is commonly used by Labor Cost Index (LCI) producers across eurosystem countries.\n\n\n\nData base access\nThe following plug-ins was developed by the National bank of Belgium (NBB). It is only available for version 2.x.\n\nAccessThis JDemetra+ extension is a pure java library for reading time series from MS Access databases. It currently supports versions 2000-2016 read/write and 97 read-only.Being a pure Java library, you don’t need MS Access installed in order to read Access files."
   },
   {
     "objectID": "T-plug-ins.html#t-plug-ins-inst",
@@ -1118,5 +1118,173 @@
     "title": "Revision Analysis",
     "section": "Motivation",
     "text": "Motivation\nwhy ?\nhow to analyse the behaviour of revisions of frequently published (and revised) macro-economic indicators.\ndetails on methods"
+  },
+  {
+    "objectID": "Output_Description.html#in-this-chapter",
+    "href": "Output_Description.html#in-this-chapter",
+    "title": "Output description",
+    "section": "In this chapter",
+    "text": "In this chapter\n\n\n\n\nwhat kind of output is produced ?\nHow to identify an output object given an algorithm ? what is uniquely defined\nWhat are the output format ?\nWhere is the output available ?\nHow to navigate it ?\nHow to generate it ?\nList of displayed/generated series (), e.g\nList of displayed/generated diagnostics, e.g\nList of displayed/generated parameters, e.g\nR packages output specificities (str(m))\n\nin R difference between user-defined and default default means : directly retrievable from sa_model"
+  },
+  {
+    "objectID": "Output_Description.html#scope",
+    "href": "Output_Description.html#scope",
+    "title": "Output description",
+    "section": "Scope",
+    "text": "Scope\nSA algorithms vs the rest\nhere SA related output, set up specific chapter add HF to HF of SA - rjd3…: str(m) - GUI display\ngenerating output from GUI possible only when workspace withh multi-documents\nand add non sa related output list of algos - terror - bench and TD -\nhow does it occur - plug ins R packages"
+  },
+  {
+    "objectID": "Output_Description.html#use-cases",
+    "href": "Output_Description.html#use-cases",
+    "title": "Output description",
+    "section": "Use Cases",
+    "text": "Use Cases\nuse case 1\nuse case 2\nand search advices"
+  },
+  {
+    "objectID": "Output_Description.html#sa-related-algorithms-hf-included",
+    "href": "Output_Description.html#sa-related-algorithms-hf-included",
+    "title": "Output description",
+    "section": "SA related algorithms (HF included ?)",
+    "text": "SA related algorithms (HF included ?)"
+  },
+  {
+    "objectID": "Output_Description.html#what-is-displayed-or-generated",
+    "href": "Output_Description.html#what-is-displayed-or-generated",
+    "title": "Output description",
+    "section": "What is displayed or generated ?",
+    "text": "What is displayed or generated ?\n\nJDemetra+ Output: 3 types of objects\n\nseries (final and intermediate)\nparameters\ndiagnostics\n\n\n\nHow to identify an output object given an algortithm\nwhat is uniquely defined\n\nCODE= concept*algo\n\nex preadjut = reg-arima or tramo\nExample\n\ndiagnostic, some are general, some are algo specific ex F test vs m7\nseries\nparemeter\n\n\n\nWhere is output displayed ?\ndisplayed : you have it vs generated you must act\n\ngui\nR packages\n\n\nHow to navigate it\n\n\n\nHow can output be generated ?\ndictionaries\n\ngenerated to files or R objects (lists of lists)\n\ngui\n\nGathered in 2 data structures\n\ntime series organised in data tables\nindividual data (for each series: parameters and diagnostics)\n\n\nHow to generate it\nHow to identify an output object given an algortithm what is uniquely defined\n\nconcept*algo\n\nex predajsutment = reg-arima or ttramo\nExample\n\ndiagnostic\nseries\nparemeter\n\nHow to identify an output object given an algortithm what is uniquely defined\n\nconcept*algo\n\nex predajsutment = reg-arima or ttramo\nExample\n\ndiagnostic\nseries\nparemeter\n\n\n\nCruncher\nhere output code, input = cruncher params, table is in cruncher chapter (link )\nX13-Arima\n\nsignal what is out but not relevant\n\nTramo seats\n\n\nR Dicos /R user defined output\nHERE\nrjd3x13, rjd3tramoseats\nlink to doc in rjdverse..\n\nFiltering useless output\nTS only in X13 and vice versa ?\n\n\nDescripitions in JAVA\n\n\nTable Description\ntype name M7 JD+ output name decomp.M7 .. .."
+  },
+  {
+    "objectID": "Output_Description.html#differences-between-v2-and-v3",
+    "href": "Output_Description.html#differences-between-v2-and-v3",
+    "title": "Output description",
+    "section": "Differences between V2 and V3",
+    "text": "Differences between V2 and V3\n\nBelow different lists We flag differences between v2 and v3\n\n\n\nIn the remainder list of nammes Link (auto) with R dictionaries ?"
+  },
+  {
+    "objectID": "Output_Description.html#series",
+    "href": "Output_Description.html#series",
+    "title": "Output description",
+    "section": "Series",
+    "text": "Series\nstored by algo, unique concept\n\nTable structure !\nas pb of width tables broken in 2 parts\nwhere are auxiliary excel files auxiliary R code all in “Documents/JD_Quarto_Book_AUX”\n\npart 1: GUI + cruncher\nname description\n\n\npart 2: R with code\n\n\n\nFinal SA series\n\n\nPreadjustement / modelling\nidentical for reg-arima and ts\n\n\nX-11 decomposition (start 1)\n\npart 2\n\n\n\n\n\n\n\n\n\n\nCode\nDescription\nGUI display (Results Panel)\nGUI output - input\ncruncher V3 output\n\n\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB2\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB3\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB4\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB5\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB6\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB7\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB8\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB9\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB10\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB11\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB12\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB13\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB14\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\n\n\n\n\nCode\nDescription\nGUI display (Results Panel)\nGUI output - input\ncruncher V3 output\n\n\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\nB1\nLinearized Series\nDecomposition X-11 &gt; Table B\ndecomposition.b1\ndecomposition.b1\n\n\n\n\n\n\n\n\n\n\n\n\nSeats decomposition (2)"
+  },
+  {
+    "objectID": "Output_Description.html#diagnostics",
+    "href": "Output_Description.html#diagnostics",
+    "title": "Output description",
+    "section": "Diagnostics",
+    "text": "Diagnostics\nobj have all the tests used in BQ and displayed in GUI\nstand alone tests: - in GUI - in R (rjd3toolkit)\n\nTests on residuals\nONE TEST example : LB TEST, link to M chap what do we describe here\n\n\nSeasonality tests\nONE TEST example : Friedman TEST, link to M chap what do we describe here"
+  },
+  {
+    "objectID": "Output_Description.html#parameters",
+    "href": "Output_Description.html#parameters",
+    "title": "Output description",
+    "section": "Parameters",
+    "text": "Parameters\nlast"
+  },
+  {
+    "objectID": "Output_Description.html#cruncher-output-special",
+    "href": "Output_Description.html#cruncher-output-special",
+    "title": "Output description",
+    "section": "Cruncher Output (special)",
+    "text": "Cruncher Output (special)\nto cruncher chap ?"
+  },
+  {
+    "objectID": "Output_Description.html#r-packages-strmodel-output",
+    "href": "Output_Description.html#r-packages-strmodel-output",
+    "title": "Output description",
+    "section": "R packages (str(model)) output",
+    "text": "R packages (str(model)) output\nsee how it works in part R code will be in tables ?"
+  },
+  {
+    "objectID": "Output_Description.html#non-sa-related-algorithms",
+    "href": "Output_Description.html#non-sa-related-algorithms",
+    "title": "Output description",
+    "section": "Non SA related algorithms",
+    "text": "Non SA related algorithms"
+  },
+  {
+    "objectID": "Output_Description.html#r-packages-strmodel-output-1",
+    "href": "Output_Description.html#r-packages-strmodel-output-1",
+    "title": "Output description",
+    "section": "R packages (str(model)) output",
+    "text": "R packages (str(model)) output"
+  },
+  {
+    "objectID": "P-Use-Cases.html",
+    "href": "P-Use-Cases.html",
+    "title": "Use cases",
+    "section": "",
+    "text": "This part provides detailed examples of use of JDemetra+ related tools.\n\nIn this part:\n\nForecasting and nowcasting examples\nSeveral ways for detecing outliers\nRefreshing a series or workspace"
+  },
+  {
+    "objectID": "U-forecasting-nowcasting.html#in-this-chapter",
+    "href": "U-forecasting-nowcasting.html#in-this-chapter",
+    "title": "Forecasting and Nowcasting",
+    "section": "In this chapter",
+    "text": "In this chapter"
+  },
+  {
+    "objectID": "U-forecasting-nowcasting.html#case-study-presentation",
+    "href": "U-forecasting-nowcasting.html#case-study-presentation",
+    "title": "Forecasting and Nowcasting",
+    "section": "Case Study presentation",
+    "text": "Case Study presentation\nData forecasts by industry sector relating to deflated VAT turnover still unavailable for the “Flash” estimate of Belgian GDP Two-step methodology Pre-selection of a restricted number of predictors (mostly from business surveys) Model selection, definition and prediction Use of the rjdverse packages: rjd3toolkit, rjd3workspace, rjd3providers, rjd3tramoseats, rjd3sts and rjd3nowcasting Types of models considered RegARIMA models: “supervised” TRAMO with or without predictor(s) ADL(1,1), ADL(1,0) with fixed or variable coefficients (predictors) Structural models + regressor(s) with fixed or variable coefficients (predictors) Dynamic factor models (1 factor)"
+  },
+  {
+    "objectID": "U-forecasting-nowcasting.html#packages-relevant-for-nowcasting",
+    "href": "U-forecasting-nowcasting.html#packages-relevant-for-nowcasting",
+    "title": "Forecasting and Nowcasting",
+    "section": "Packages relevant for nowcasting",
+    "text": "Packages relevant for nowcasting\nrjd3toolkit: statistical toolkit and modelling support, for example: calendar_td(): generation of regressors for trading days effects ao_variable() / ls_variable(): generation of regressors for different types of outliers differencing_fast(): automatic identification of differentiation orders to achieve stationarity ljungbox(), jarquebera(), etc.: diagnostics on residuals rjd3workspace & rjd3providers: interactivity with GUI workspaces rjd3tramoseats : RegARIMA models tramo_forecast(): prediction using TRAMO rjd3sts: Structural / State Space models rjd3nowcasting: Dynamic Factor Models"
+  },
+  {
+    "objectID": "U-forecasting-nowcasting.html#reg-arimla-models",
+    "href": "U-forecasting-nowcasting.html#reg-arimla-models",
+    "title": "Forecasting and Nowcasting",
+    "section": "Reg Arimla Models",
+    "text": "Reg Arimla Models\nForecasting by means of a RegARIMA model (TRAMO) with rjd3tramoseats (full code: here):"
+  },
+  {
+    "objectID": "U-forecasting-nowcasting.html#gui",
+    "href": "U-forecasting-nowcasting.html#gui",
+    "title": "Forecasting and Nowcasting",
+    "section": "GUI",
+    "text": "GUI\nHybrid GUI/R approach for RegARIMA models (and seasonal [pre-]adjustment)"
+  },
+  {
+    "objectID": "U-forecasting-nowcasting.html#state-space",
+    "href": "U-forecasting-nowcasting.html#state-space",
+    "title": "Forecasting and Nowcasting",
+    "section": "State Space",
+    "text": "State Space\n\nState Space modelling: structural models, regression with variable coefficient, etc.\n\n\nPrediction by means of a Basic Structural Model with regressors: code here"
+  },
+  {
+    "objectID": "U-forecasting-nowcasting.html#dynamic-factor-models",
+    "href": "U-forecasting-nowcasting.html#dynamic-factor-models",
+    "title": "Forecasting and Nowcasting",
+    "section": "Dynamic Factor models",
+    "text": "Dynamic Factor models"
+  },
+  {
+    "objectID": "U-forecasting-nowcasting.html#conclusion",
+    "href": "U-forecasting-nowcasting.html#conclusion",
+    "title": "Forecasting and Nowcasting",
+    "section": "Conclusion",
+    "text": "Conclusion\nCross-validation shows gains in accuracy in almost all branches of activity compared with the previous methodology (“unsupervised” TRAMO, without predictor) Approximatively 2/3 of these gains come from switching to a “supervised” TRAMO method (without predictor) Importance of defining a national calendar for monthly data Importance of properly defining outliers (especially during Covid period) Overall, the predictive power of business surveys turns on to be relatively weak However, this masks disparities and pleasant surprises (e.g. the question on weather conditions in the construction sector)"
+  },
+  {
+    "objectID": "U-outlier-detection.html#in-this-chapter",
+    "href": "U-outlier-detection.html#in-this-chapter",
+    "title": "Outlier detection",
+    "section": "In this chapter",
+    "text": "In this chapter"
+  },
+  {
+    "objectID": "U-refreshing-data.html#in-this-chapter",
+    "href": "U-refreshing-data.html#in-this-chapter",
+    "title": "Refreshing data",
+    "section": "In this chapter",
+    "text": "In this chapter"
   }
 ]
